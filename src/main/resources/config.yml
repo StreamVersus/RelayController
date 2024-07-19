@@ -1,0 +1,25 @@
+credentials:
+  ip: localhost
+  port: 8081
+  endpoint: /topic/>
+  login:
+  password:
+
+#relays:
+  #Любое имя реле
+  #nomer1:
+  #ip: 0
+  #логин и пароль при наличии
+  #login:
+  #password:
+  #Список uuid камер, при срабатывании которых стоит активировать реле
+  #cameras-uuid:
+  #  - 2195509d-be45-42c4-b9d4-06c00e21231b
+
+relays:
+  nomer1:
+    ip: 0
+    login:
+    password:
+    cameras-uuid:
+      - 2195509d-be45-42c4-b9d4-06c00e21231b
